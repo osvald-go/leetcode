@@ -13,4 +13,13 @@ public class LeetCodeUtils {
     public static String printArray(Object[] objects){
         return Arrays.toString(objects);
     }
+
+    /**
+     * 打印数组
+     * @param objects 数组
+     * @return 字符串
+     */
+    public static String printArray(int[] objects){
+        return Arrays.toString(objects);
+    }
 }
